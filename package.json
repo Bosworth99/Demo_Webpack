@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Bosworth99/webpack_demo",
   "devDependencies": {
-    "bower": "^1.7.1"
+    "bower": "^1.7.1",
+    "webpack": "^1.12.9"
   }
 }
