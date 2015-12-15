@@ -12,13 +12,15 @@
   },
   "keywords": [
     "webpack",
-    "javascript",
-    "es6"
+    "javascript"
   ],
   "author": "josh@joshbosworth.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Bosworth99/webpack_demo/issues"
   },
-  "homepage": "https://github.com/Bosworth99/webpack_demo"
+  "homepage": "https://github.com/Bosworth99/webpack_demo",
+  "devDependencies": {
+    "bower": "^1.7.1"
+  }
 }
