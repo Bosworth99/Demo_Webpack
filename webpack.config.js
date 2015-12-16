@@ -7,7 +7,6 @@ module.exports = {
     entry: './Javascript/app/index',
     module: {
         loaders: [
-            { test: /underscore/,   loader: 'exports?_' },
             { test: /backbone/,     loader: 'exports?Backbone!imports?underscore,jquery' }
         ]
     },
@@ -24,8 +23,8 @@ module.exports = {
         extensions: ['', '.js'],
         alias: {
                 'jquery'    : 'jquery/dist/jquery.min',
-                'backbone'  : 'backbone/backbone-min',
-                'underscore': 'underscore/underscore-min'
+                'underscore': 'underscore/underscore-min',
+                'backbone'  : 'backbone/backbone-min'
         },
         watch : true,
         devtool: '#inline-source-map',
